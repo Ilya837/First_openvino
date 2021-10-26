@@ -53,8 +53,6 @@ class InferenceEngineClassifier:
                 result.append(line)
             res.append(result)
 
-        if len(res) == 1:
-            return res[0]
         return res
 
     def _prepare_image(self, image, h, w):
